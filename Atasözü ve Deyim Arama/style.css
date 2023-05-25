@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  user-select: none;
+  list-style: decimal;
+ 
+}
+
+html {
+  font-size: 62.5%; /*responsive tasarım olsun diye pixel kullanmadım  */
+}
+
+body {
+ 
+  font-size: 1.6rem;
+  background-image: linear-gradient(36deg, deepskyblue 0%, white 100%);
+  height: 180vh;
+  background: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Titillium Web;
+ 
+}
+#container {
+  background-color: #fff;
+  width: 60rem;
+  min-height: 30vh;
+  border-radius: 1rem;
+  box-shadow: 0 0 1.2rem 0.2rem lightgray;
+  margin: 2rem;
+  position: fixed;
+  top: 200px;
+ 
+}
+#container > * {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+ul {
+  line-height: 2.2;
+  position: absolute;
+  top: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
